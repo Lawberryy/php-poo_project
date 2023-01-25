@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: fit-content;
+    position: relative;
+}
+.btn {
+    text-decoration: none;
+    color: #FFFAF7;
+    padding: 5px;
+    background-color: #EB641A;
+    border-radius: 8px;
+    position: absolute;
+}
+.logout {
+    bottom: 5px;
+    right: 5px;
+}
+.admin, .account {
+    top: 5px;
+    right: 5px;
+}
+
+/* page admin */
+
+.section {
+    background-color: #FFFAF7;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #EB641A;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 75px;
+    margin: 10px 0 10px 20px;
+}
+
+#liste-user-pet {
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: separate;
+    background-color: #292f36;
+    text-align: center;
+    color: #FFFAF7;
+    margin-top: 20px;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.ligne-1 {
+    color: #EB641A;
+    font-weight: bold;
+}
+.listes {
+    display: flex;
+    justify-content: space-evenly;
+}
+.liste-users {
+    display: flex;
+    justify-content: center;
+}
+
+/* page my account */
+
+.delete {
+    text-decoration: none;
+    color: #EB641A;
+    font-weight: bold;
+}
+
+h2 {text-align: center}
+
+.section-form {
+    display: flex;
+    justify-content: center;
+}
+.form {margin-top: 40px}
+
+.input {
+    padding: 6px;
+    background-color: #292f36;
+    color: #FFFAF7;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.submit, .retour {
+    padding: 6px;
+    background-color: #EB641A;
+    color: #FFFAF7;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.bloc-pet {margin-top: 50px;}
+.card {
+    margin-top: 20px;
+    width: fit-content;
+    background-color: #292f36;
+    padding: 10px;
+    color: #FFFAF7;
+    border-radius: 8px;
+}
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+span {
+    font-weight: bold;
+}
+
+/* page login */
+
+hr {
+    margin: 40px 0 40px 0;
+    background-color: #292f36;
+    height: 3px;
+    border: none;
+}
+.pw {
+    width: 180px;
+}
+
+.background {
+    background-image: url("images/paws-background.jpg");
+}
